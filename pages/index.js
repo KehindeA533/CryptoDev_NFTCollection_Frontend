@@ -3,8 +3,6 @@ import Header from '../components/Header'
 import MintNFT from '../components/MintNFT'
 import Footer from '../components/Footer'
 import styles from '../styles/Home.module.css'
-import Timer from '../components/Timer'
-import Mint from '../components/Mint'
 
 export default function Home() {
   return (
@@ -17,7 +15,6 @@ export default function Home() {
       <Header />
       <MintNFT />
       <Footer />
-      {/* <Mint /> */}
     </div>
   )
 }
